@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script defer src="./js/script.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Obi's Weather App</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <div class="inputSide">
+      <h1>AJAX Weather Lab</h1>
+
+      <form>
+        <input type="text" class="formElements" id="searchForm">
+        <button id="searchButton" class="formElements">Get Weather</button>
+      </form>
+
+
+
+    </div>
+
+    <div class="outputSide">
+
+      <h3 class="label">Weather For:</h3>
+      <h2 id="location" class="weatherdata"></h2>
+
+      <p class="label">Temperature</p>
+      <p id="temperature" class="weatherdata"></p>
+
+      <p class="label">Feels Like:</p>
+      <p id="feelslike" class="weatherdata"></p>
+
+      <p class="label">Weather:</p>
+      <p id="weather" class="weatherdata"></p>
+      <small>
+        <p class="label">Longitude, Latitude</p>
+        <p id="longitudeLatitude" class="weatherdata"></p>
+      </small>
+
+    </div>
+  </main>
+
+</body>
+
+</html>
